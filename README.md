@@ -1,0 +1,1 @@
+curl -O https://p.phcdn.net/file/data/@secure/o24v7ykfaxspwcrkplig/PHID-FILE-eyjyryfqbovvmw4s42a5/install_ubuntu.sh
