@@ -57,4 +57,5 @@ echo -e "\n--- Configuring Phabricator --\n"
 /opt/phabricator/bin/config set mysql.port $DBPORT
 /opt/phabricator/bin/config set mysql.user $DBUSER
 /opt/phabricator/bin/config set mysql.pass $DBPASSWD
-/opt/phabricator/bin/storage upgrade
+/opt/phabricator/bin/config set phabricator.show-prototypes true
+/opt/phabricator/bin/storage upgrade --force
